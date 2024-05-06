@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Lugrasimo&family=Nothing+You+Could+Do&display=swap");
+
+.lugrasimo-regular {
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Lugrasimo";
+  background-color: #e9ecfd;
+  /*   background-color: #B5C1F8; */
+  color: #0a0909;
+  /*   color: #1B0C11; */
+  margin: 0;
+  padding: 0;
+  /*   these two last entries allow collor to flow for the whole page */
+}
+h1,
+h2 {
+  font-family: "Cinzel Decorative";
+  color: #052b76;
+  /*   using a comma here meand "and" */
+}
+header {
+  font-family: "Cinzel Decorative";
+  background: #ffc38b;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+}
+.button {
+  grid-column: 2/3;
+  background-color: #ca0923;
+  color: white;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #052b76;
+  color: #f82151;
+}
+nav a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+  width: 300px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+footer {
+  background-color: #ffc38b;
+  padding: 3rem;
+  text-align: center;
+}
